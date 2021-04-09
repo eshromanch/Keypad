@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+@mixin btn {
+    color: white;
+    padding: 50px;
+    border: none;
+    font-size: 26px;
+    border-radius: 10px;
+    margin:2px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:  #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  
+    background: linear-gradient(to right, #89253e, #3a6186); 
+}
+
+h1{
+    font-family: 'Courgette', cursive;
+    font-size: 4rem;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.allButtons{
+    display: flex;
+    justify-content: center;
+
+
+}
+.drum{
+    @include btn();
+    background: #27ae60;
+
+    &:hover{
+        background: #2ecc71;
+    }
+}
+
+.piano{
+    @include btn();
+    background: #16a085;
+    &:hover{
+        background: #1abc9c;
+    }
+}
+.piano2{
+    @include btn();
+    background: #2980b9;
+    &:hover{
+        background: #3498db;
+    }
+}
+.ambiantBtn{
+    @include btn();
+    background: #c0392b;
+    &:hover{
+        background: #e74c3c;
+    }
+}
+.drum_two_btn{
+    @include btn();
+    background: #f39c12;
+    &:hover{
+        background: #f1c40f;
+    }
+}
+
+.glitch{
+    @include btn();
+    background: #f39c12;
+    &:hover{
+        background: #f1c40f;
+    }
+}
+.pluck{
+    @include btn();
+    background: #c0392b;
+    &:hover{
+        background: #e74c3c;
+    }
+}
+
+.strings{
+    @include btn();
+    background: #27ae60;
+    &:hover{
+        background: #2ecc71;
+    }
+}
+.choir{
+    @include btn();
+    background: #2980b9;
+    &:hover{
+        background: #3498db;
+    }
+}
+.vocal{
+    @include btn();
+    background: #16a085;
+    &:hover{
+        background: #1abc9c;
+    }
+}

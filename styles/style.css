@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: #3a6186;
+  background: -webkit-gradient(linear, left top, right top, from(#89253e), to(#3a6186));
+  background: linear-gradient(to right, #89253e, #3a6186);
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 4rem;
+  font-weight: 200;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h4 {
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.allButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.drum {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #27ae60;
+}
+
+.drum:hover {
+  background: #2ecc71;
+}
+
+.piano {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #16a085;
+}
+
+.piano:hover {
+  background: #1abc9c;
+}
+
+.piano2 {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #2980b9;
+}
+
+.piano2:hover {
+  background: #3498db;
+}
+
+.ambiantBtn {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #c0392b;
+}
+
+.ambiantBtn:hover {
+  background: #e74c3c;
+}
+
+.drum_two_btn {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #f39c12;
+}
+
+.drum_two_btn:hover {
+  background: #f1c40f;
+}
+
+.glitch {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #f39c12;
+}
+
+.glitch:hover {
+  background: #f1c40f;
+}
+
+.pluck {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #c0392b;
+}
+
+.pluck:hover {
+  background: #e74c3c;
+}
+
+.strings {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #27ae60;
+}
+
+.strings:hover {
+  background: #2ecc71;
+}
+
+.choir {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #2980b9;
+}
+
+.choir:hover {
+  background: #3498db;
+}
+
+.vocal {
+  color: white;
+  padding: 50px;
+  border: none;
+  font-size: 26px;
+  border-radius: 10px;
+  margin: 2px;
+  background: #16a085;
+}
+
+.vocal:hover {
+  background: #1abc9c;
+}
+/*# sourceMappingURL=style.css.map */
